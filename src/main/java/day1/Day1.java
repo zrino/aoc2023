@@ -7,7 +7,7 @@ import java.util.Map;
 public class Day1 {
     private static final String INPUT_FILE = "src/main/resources/Day1/inputFile.txt";
 
-    private  static final HashMap<String, Integer> wordToIntValue = new HashMap<String, Integer>(){{
+    private  static final HashMap<String, Integer> wordToIntValue = new HashMap<>(){{
         put("one", 1);
         put("two", 2);
         put("three", 3);
